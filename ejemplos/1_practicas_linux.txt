@@ -1,0 +1,26 @@
+1_practicas_linux.pdf
+
+Practicas con ls
+
+1) cd /usr   ls -a
+   ls /usr -a  <--> ls -a /usr
+
+2) desde /etc
+	ls manpath.config -hl  -> 5,1 K
+   desde $HOME
+	ls /etc/manpath.config -hl  -> 5,1 K
+
+3) ls /etc -lSh
+
+   ls /etc -lSh | head -2  (tamaño total y el fichero mas grande)
+
+   ls /etc -lShr  (invertir y mirar la última fila)
+
+4) inodo desde otra carpeta distinta
+   ls -i $HOME
+
+5) ls -1  (en columna)
+   ls -m  (en fila)
+
+6) ls /etc -lhSa
+
