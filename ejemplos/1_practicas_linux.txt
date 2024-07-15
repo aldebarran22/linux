@@ -30,4 +30,11 @@ mkdir -p Fotos/{Color,BlancoNegro}
 mkdir -p Videos/Familiares
 mkdir -p Ejercicios/{Cuestiones,Problemas}
 
+Obtener cuanto ocupa en K,M,G todas las
+subcarpetas de la carpeta / (raíz).
+du / -chd 1
+
+
+
+
 
