@@ -24,3 +24,10 @@ Practicas con ls
 
 6) ls /etc -lhSa
 
+Prácticas con directorios:
+
+mkdir -p Fotos/{Color,BlancoNegro}
+mkdir -p Videos/Familiares
+mkdir -p Ejercicios/{Cuestiones,Problemas}
+
+
