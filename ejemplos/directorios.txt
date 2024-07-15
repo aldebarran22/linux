@@ -41,6 +41,20 @@
 9) Copiar desde: $HOME/curso_cap/ficheros
   el fichero: Pedidos.txt a la carpeta de willy
 
+10) Permisos de los ficheros
+rwx rwx rwx
+421 421 421
+
+110 100 100 -> 644
+
+r-x r-x r-- -> 
+101 101 100 -> 554
+
+701 -> 111 000 001 -> rwx --- --x
+
+ 
+
+
 
 
 
