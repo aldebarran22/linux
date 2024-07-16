@@ -18,3 +18,5 @@ desvinculado (ya no encuentra el fichero original)
 
 - Si modificamos a través del enlace simbólico: se modifica
 el fichero original y los enlaces duros que tengamos
+
+Con unlink se pueden borrar los dos tipos enlaces!!
