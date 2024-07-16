@@ -1,0 +1,16 @@
+Enlaces: ln nombreFichero
+- Duro
+ Cualquier modificación en el fichero original
+o en el enlace duro se ve modificado en ambos sitios
+
+ls -l me muestra el número de enlaces duros de cada fichero
+
+Se puede eliminar el fichero original o el enlace duro
+pero no se borra definitivamente hasta que solo queda 1 enlace
+
+
+- Simbólico: ln -s nombreFichero
+
+- El enlace simbo. se puede borrar y se mantiene el fichero
+pero si borramos el fichero original el enlace queda 
+desvinculado (ya no encuentra el fichero original)
