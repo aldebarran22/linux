@@ -1,0 +1,4 @@
+Abrir una nueva linea debajo de la cabecera
+Borrar en la linea: 10250, borrar el país
+Borrar en la linea: 10255, borrar todo menos el país
+Abrir una nueva línea por encima del 10249

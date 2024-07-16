@@ -1,0 +1,18 @@
+tb1 tb2
+1    1
+2    2
+3    4
+5    6
+
+inner join (1,1), (2,2)
+tb1 left join tb2 -> (1,1), (2,2), (3,null), (5,null)
+tb1 right join tb2 -> (1,1), (2,2), (4,null), (6,null)
+
+tb1 full outer join tb2 -> (1,1), (2,2), (3,null),(5,null), (4,null), (6,null)
+
+
+Conjuntos:
+tb1 union tb2: 1,2,3,4,5,6
+tb1 minus tb2: {1,2,3,5} - {1,2,4,6} = {3,5}
+tb2 minus tb1: {1,2,4,6} - {1,2,3,5} = {4,6}
+
