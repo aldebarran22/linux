@@ -67,3 +67,15 @@ Todos los ficheros de root de la carpeta /etc que empiecen
 por "cron"
 find /etc -user root -name cron*
 
+Ficheros que tengan permisos 777 o que sean inferiores
+1 k
+
+Combinar find para borrar o visualizar el contenido
+del ficheros
+cat $(find . -size -2k)
+cat `find . -size -2k`
+
+rm $(find . -size -2k)
+rm `find . -size -2k`
+
+

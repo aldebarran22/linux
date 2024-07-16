@@ -51,6 +51,11 @@ cat -b mtools.conf  -> No las incluye
    Los últimos 20 bytes: tail -c 20
 
 
+Practicas sobre FIND
+1) find /etc -size +10k
+4) sudo find /etc -newer /etc/profile
+
+
 
 
 
