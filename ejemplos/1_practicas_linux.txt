@@ -34,6 +34,23 @@ Obtener cuanto ocupa en K,M,G todas las
 subcarpetas de la carpeta / (raíz).
 du / -chd 1
 
+Prácticas Visualizar:
+1) cd /etc
+cat -n mtools.conf  -> incluye las líneas en blanco
+cat -b mtools.conf  -> No las incluye
+
+2) more +14 -3 Pedidos.txt
+
+3) less -e (2ª vez al final se sale)
+   less -E (se sale con la 1ª)
+
+4) less -w Pedidos.txt
+
+5) Las 15 primeras filas:head -15 Pedidos.txt
+   La última fila:  tail -1 Pedidos.txt
+   Los últimos 20 bytes: tail -c 20
+
+
 
 
 
